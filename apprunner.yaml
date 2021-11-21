@@ -4,7 +4,6 @@ build:
   commands:
     build:
     - yum install -y pycairo
-    - pip install -r requirements.txt
 run:
   command: deploy.sh
   network:
